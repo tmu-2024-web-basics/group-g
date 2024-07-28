@@ -1,0 +1,220 @@
+.tempimagenmmwdq-1-icon {
+  margin-top: -1081px;
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divider-icon,
+.image-20-icon,
+.tempimagenmmwdq-1-icon {
+  position: relative;
+  max-width: 100%;
+}
+.divider-icon {
+  align-self: stretch;
+  height: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.image-20-icon {
+  width: 657px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divider-parent,
+.image-20-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-20-wrapper {
+  width: 1197px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.divider-parent {
+  align-self: stretch;
+  height: 363px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 167px;
+  gap: 118px;
+  flex-shrink: 0;
+}
+.dish-name-separator,
+.menu-background,
+.negidaku-image-one {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  background-color: #ff6b00;
+  width: 14px;
+  height: 881px;
+}
+.menu-background,
+.negidaku-image-one {
+  top: 691px;
+  left: 1169px;
+  width: 13px;
+  height: 821px;
+}
+.menu-background {
+  top: 1387px;
+  left: 41px;
+}
+.icon,
+.icon1,
+.yoshigyuu-1-icon {
+  position: absolute;
+  top: 128px;
+  left: -7px;
+  width: 625px;
+  height: 625px;
+  object-fit: cover;
+  z-index: 1;
+}
+.icon,
+.icon1 {
+  top: 832px;
+  left: 600px;
+  width: 720px;
+  height: 540px;
+}
+.icon1 {
+  top: 1451px;
+  left: -7px;
+  width: 607px;
+  height: 607px;
+}
+.image-13-icon,
+.image-15-icon,
+.image-17-icon {
+  position: absolute;
+  top: 167px;
+  left: 682px;
+  width: 361px;
+  height: 112px;
+  object-fit: cover;
+}
+.image-15-icon,
+.image-17-icon {
+  top: 907px;
+  left: 118px;
+  width: 301px;
+  height: 124px;
+}
+.image-17-icon {
+  top: 1548px;
+  left: 640px;
+  width: 213px;
+  height: 132px;
+}
+.image-21-icon,
+.image-22-icon,
+.image-23-icon {
+  position: absolute;
+  top: 341px;
+  left: 674px;
+  width: 483px;
+  height: 152px;
+  object-fit: cover;
+}
+.image-22-icon,
+.image-23-icon {
+  top: 1054px;
+  left: 118px;
+  width: 338px;
+  height: 140px;
+}
+.image-23-icon {
+  top: 1718px;
+  left: 659px;
+  width: 451px;
+  height: 96px;
+}
+.dish-name-separator-parent {
+  align-self: stretch;
+  height: 2208px;
+  position: relative;
+  flex-shrink: 0;
+}
+.macbook-air-4 {
+  width: 100%;
+  height: 4010px;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 958px 0 433px;
+  box-sizing: border-box;
+  gap: 48px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 650px) {
+  .divider-parent {
+    gap: 59px;
+  }
+  .macbook-air-4 {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .divider-parent {
+    gap: 29px;
+    padding-bottom: 109px;
+    box-sizing: border-box;
+  }
+}
+#header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header {
+  position: fixed; /*** ← fixedで固定 ***/
+  width: 100%; 
+  height: 60px; 
+  background: #ffffff00; 
+  padding: 20px 60px; 
+  box-sizing: border-box;
+  top: 0; 
+  left: 0; 
+  display: flex; 
+  align-items: center; 
+
+ /* ロゴとメニューを横並びにする */
+  display: flex; 
+  justify-content:space-between;
+}
+
+header .nav .menu {
+  display: flex; 
+}
+
+header .nav .menu li {
+  list-style: none; 
+  margin-left: 40px;
+}
+
+header .nav .menu li a{
+ color: #ffffff;
+ font-weight:bold;
+ text-decoration: none;
+}
+h1 a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
